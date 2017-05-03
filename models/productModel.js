@@ -10,7 +10,7 @@ var productModel = new Schema({
 	category: {type: Schema.Types.ObjectId, ref: 'Category'}, 
 	publisher: {type: Schema.Types.ObjectId, ref: 'Publisher'},
 	img_main: [],
-	qty: {type: Number}
+	qty: {type: Number},
 	date_create: {type: Date},
 	date_modify: {type: Date},
 	isdelete: {type: Boolean, default: true}
